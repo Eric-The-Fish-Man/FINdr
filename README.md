@@ -9,7 +9,7 @@ THIS IS NOT A FULLY POLISHED PROGRAM. IT HAS INCOMPLETE FEATURES AND THUS IS NOT
 Instructions for how to process footage for tracking.
 
 
-1. Prepare the footage for tracking
+1. Prepare the footage for tracking\n
   The footage used for testing this program were top-down videos of zebrafish (one male, one female). To accurately process them the first step was to simplify the footage into a white background with black fish. This was done using a background subtraction method in the 3D modeling & compositing software Blender. A screenshot of the node output is included, to demonstrate the detailed process of how this works.
 
 2. Track the footage
@@ -19,7 +19,9 @@ Instructions for how to process footage for tracking.
     used Mtrack2 to track (with min size at about 350, max size at infinity, and velocity and track length depended on the footage)
   This resulted in a csv file sorted like the following:
     |Fish_1_X|Fish_1_Y|-|Fish_2_X|Fish_2_Y|-|...
+    
     |Fish_1_X|Fish_1_Y|-|Fish_2_X|Fish_2_Y|-|...
+    
   etc. Noted is in cases where the behaviour has been previously recorded, the entries can be put into the spots with a dash
   
 3. Run the program.
