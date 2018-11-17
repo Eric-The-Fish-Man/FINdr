@@ -1,5 +1,5 @@
 # FINdr
-Program for organizing the datasheet from fish tracking (the process which is included in the description). This is a basis for setting up a machine learning process that can identify the patterns of the fish.
+Program for organizing the datasheet from fish tracking (the process which is included in the description). This is a basis for setting up a machine learning process that can identify the patterns of the fish. Written in c# in Visual Studio 2017.
 
 
 THIS IS NOT A FULLY POLISHED PROGRAM. IT HAS INCOMPLETE FEATURES AND THUS IS NOT BUG FREE. IF ANYONE WISHES TO TAKE THIS PROGRAM AND BUILD ON IT, MODIFY IT, OR IMPROVE IT, THEY ARE FREE AND ENCOURAGED TO DO SO.
